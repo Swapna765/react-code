@@ -3,8 +3,8 @@ import "./App.css";
 import ErrorMessage from "./components/Errormsg";
 
 function App() {
-  // let foodItems = ["Pizza", "Burger", "Pasta", "Salad", "Sushi"];
   let foodItems = [];
+  let foodItems = ["Pizza", "Burger", "Pasta", "Salad", "Sushi"];
   return (
     <>
       <FoodItems items={foodItems} />
