@@ -1,7 +1,7 @@
 function AddToDo() {
   return (
-    <div>
-      <div class="row">
+    <div class="container tet-center">
+      <div class="row new-row">
         <div class="col-6">
           <input type="text" placeholder="Enter to do here"></input>
         </div>
@@ -10,7 +10,7 @@ function AddToDo() {
         </div>
         <div class="col-2">
           <button type="button" class="btn btn-success new new-btn">
-            Success
+            Add
           </button>
         </div>
       </div>

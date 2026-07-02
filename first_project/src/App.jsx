@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <center>
+      <center className="todo-container">
         <AppName />
         <AddToDo />
         <div className="item-container">
