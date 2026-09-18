@@ -1,0 +1,9 @@
+*{
+    margin: 20px;
+    padding: 10px;
+}
+
+.demo{
+    display: flex;
+    flex-direction: column;
+}

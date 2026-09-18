@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Basics</title>
+  </head>
+  <body>
+    <div class="jscontainer"></div>
+
+    <script src="https://unpkg.com/supersimpledev/react.js"></script>
+    <script src="https://unpkg.com/supersimpledev/react-dom.js"></script>
+    <script src="https://unpkg.com/supersimpledev/dayjs.js"></script>
+
+    <script src="https://unpkg.com/supersimpledev/babel.js"></script>
+
+    <script type="text/babel">
+
+      const button = <button>Good job!</button>;
+      const name1 = <p>Swapna</p>
+
+      const con = (
+        <div>
+            <p> Cotton socks </p>
+            <p>Price $10</p>
+            <button>Add to cart</button>
+        </div>    
+        )
+
+
+        const buy = (
+            <div>
+                <p>Price of socks is 10</p>    
+                <p>Price of T-shirt is 8</p>
+                <p>Total price is {10 + 8 * 2}</p>
+            </div>
+        )
+
+        const cost = 10 + 8 * 2
+        const shipping = 5
+        const para = `The total product cost is : ${cost}` 
+
+
+        const price = (
+            <div>
+                <p>Price of product : {cost}</p>    
+                <p>Price of shipping : {shipping}</p>
+                <p>Total price is : {cost + shipping}</p>
+
+                <button>Place your order</button>
+            </div>
+        )
+        
+
+        const day = <p>Today is : {dayjs().format('MMMM D')}</p>
+        const time = <p>Today is : {dayjs().format('HH : mm : ss')}</p>
+        
+
+    //   const container = document.querySelector('.jscontainer');
+    //   ReactDOM.createRoot(container).render(button);
+
+    //   const container = document.querySelector('.jscontainer');
+    //   ReactDOM.createRoot(container).render(name1);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(con);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(buy);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(para);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(total);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(price);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(day);
+
+    // const container = document.querySelector('.jscontainer');
+    // ReactDOM.createRoot(container).render(time);
+
+
+    const container = document.querySelector('.jscontainer');
+    ReactDOM.createRoot(container).render(time);
+
+    </script>
+  </body>
+</html>

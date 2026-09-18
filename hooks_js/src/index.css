@@ -1,0 +1,20 @@
+div{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+  width: 900px;
+}
+
+button{
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+}

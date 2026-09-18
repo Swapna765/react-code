@@ -1,0 +1,28 @@
+*{
+    margin: 5px;
+}
+
+body{
+    background-color: rgb(12, 12, 25);
+    color: aliceblue;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 55);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav div{
+   display: flex;
+   align-items: center;
+   gap: 40px;
+}
+
+h2{
+    margin: 44%;
+    
+}
