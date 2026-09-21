@@ -1,0 +1,31 @@
+*{
+    margin: 2px;
+    padding: 2px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 7px;
+    border-radius: 20px;
+    border: 2px solid #efecec;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+.login-btn{
+    background-color: rgb(244, 27, 27);
+    color: aliceblue;
+    border: 2px solid rgb(110, 105, 107);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
